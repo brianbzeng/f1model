@@ -1,0 +1,189 @@
+{
+  "season": 2026,
+  "asOf": "2026-09-07",
+  "through": "Italian Grand Prix",
+  "completedRaces": 13,
+  "totalRaces": 23,
+  "completedSprints": 5,
+  "simulations": 10000,
+  "validationRmse": 0.8046,
+  "validationMae": 0.6436,
+  "baselineRmse": 0.8384,
+  "methodVersion": "in-season-v2",
+  "features": [
+    "points_share",
+    "current_rank",
+    "avg_grid",
+    "avg_finish",
+    "dnf_rate",
+    "win_rate",
+    "podium_rate",
+    "top10_rate"
+  ],
+  "validation": {
+    "method": "expanding-window season holdout",
+    "folds": [
+      {
+        "season": 2015,
+        "trainingThrough": 2014,
+        "teams": 10,
+        "rmse": 0.5804550027808904
+      },
+      {
+        "season": 2016,
+        "trainingThrough": 2015,
+        "teams": 11,
+        "rmse": 0.7178418603224885
+      },
+      {
+        "season": 2017,
+        "trainingThrough": 2016,
+        "teams": 10,
+        "rmse": 0.834316927836204
+      },
+      {
+        "season": 2019,
+        "trainingThrough": 2018,
+        "teams": 10,
+        "rmse": 0.8476299179172108
+      },
+      {
+        "season": 2020,
+        "trainingThrough": 2019,
+        "teams": 10,
+        "rmse": 0.5335755067735272
+      },
+      {
+        "season": 2021,
+        "trainingThrough": 2020,
+        "teams": 10,
+        "rmse": 0.42680817055725395
+      },
+      {
+        "season": 2022,
+        "trainingThrough": 2021,
+        "teams": 10,
+        "rmse": 0.7393439179314581
+      },
+      {
+        "season": 2023,
+        "trainingThrough": 2022,
+        "teams": 10,
+        "rmse": 1.0220845407526749
+      },
+      {
+        "season": 2024,
+        "trainingThrough": 2023,
+        "teams": 10,
+        "rmse": 0.9792650159315555
+      },
+      {
+        "season": 2025,
+        "trainingThrough": 2024,
+        "teams": 10,
+        "rmse": 1.0968042307189678
+      }
+    ]
+  },
+  "teams": [
+    {
+      "name": "Mercedes",
+      "currentRank": 1,
+      "currentPoints": 468.0,
+      "meanRank": 1.3836,
+      "title": 66.69,
+      "top3": 99.8,
+      "top5": 100.0
+    },
+    {
+      "name": "Ferrari",
+      "currentRank": 2,
+      "currentPoints": 346.0,
+      "meanRank": 1.8494,
+      "title": 30.52,
+      "top3": 98.55,
+      "top5": 100.0
+    },
+    {
+      "name": "McLaren",
+      "currentRank": 3,
+      "currentPoints": 287.0,
+      "meanRank": 3.024,
+      "title": 2.68,
+      "top3": 80.23,
+      "top5": 99.89
+    },
+    {
+      "name": "Red Bull Racing",
+      "currentRank": 4,
+      "currentPoints": 204.0,
+      "meanRank": 3.9892,
+      "title": 0.11,
+      "top3": 19.83,
+      "top5": 96.87
+    },
+    {
+      "name": "Racing Bulls",
+      "currentRank": 5,
+      "currentPoints": 75.0,
+      "meanRank": 5.1595,
+      "title": 0.0,
+      "top3": 1.33,
+      "top5": 70.29
+    },
+    {
+      "name": "Alpine",
+      "currentRank": 6,
+      "currentPoints": 62.0,
+      "meanRank": 5.754,
+      "title": 0.0,
+      "top3": 0.26,
+      "top5": 31.78
+    },
+    {
+      "name": "Audi",
+      "currentRank": 8,
+      "currentPoints": 16.0,
+      "meanRank": 7.4272,
+      "title": 0.0,
+      "top3": 0.0,
+      "top5": 0.78
+    },
+    {
+      "name": "Haas F1 Team",
+      "currentRank": 7,
+      "currentPoints": 21.0,
+      "meanRank": 7.6867,
+      "title": 0.0,
+      "top3": 0.0,
+      "top5": 0.39
+    },
+    {
+      "name": "Williams",
+      "currentRank": 9,
+      "currentPoints": 11.0,
+      "meanRank": 8.9168,
+      "title": 0.0,
+      "top3": 0.0,
+      "top5": 0.0
+    },
+    {
+      "name": "Aston Martin",
+      "currentRank": 10,
+      "currentPoints": 3.0,
+      "meanRank": 10.2587,
+      "title": 0.0,
+      "top3": 0.0,
+      "top5": 0.0
+    },
+    {
+      "name": "Cadillac",
+      "currentRank": 11,
+      "currentPoints": 0.0,
+      "meanRank": 10.5509,
+      "title": 0.0,
+      "top3": 0.0,
+      "top5": 0.0
+    }
+  ]
+}
